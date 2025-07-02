@@ -1,30 +1,15 @@
-# Camera Classifier  
-### Real-Time Image Classification with Streamlit + CNN
+# Camera Classifier
 
-Camera Classifier is a **real-time image classification web app** built using **Streamlit**, **OpenCV**, and a custom **Convolutional Neural Network (CNN)** model. It allows users to classify objects captured through their webcam directly in the browser. This tool is lightweight, responsive, and ideal for quick demos or educational use cases.
-
-
----
+**Camera Classifier** is a real-time image classification desktop application built using Python, OpenCV, Tkinter, and a simple machine learning classifier (default: Linear SVM). It enables users to capture images from their webcam, label them, train a model, and classify objects in real time—all within a lightweight graphical interface.
 
 ## Features
 
--  **Real-time camera feed** via Streamlit and OpenCV.
--  **CNN-based classifier** trained on custom or standard image datasets.
--  Classifies frames from the webcam in real time with predictions displayed instantly.
--  Simple UI with minimal setup and fast inference.
--  Lightweight and deployable even without a GPU.
-
----
-
-## Tech Stack
-
-- **Frontend:** Streamlit  
-- **Camera Input:** OpenCV  
-- **Model:** Custom CNN (TensorFlow / Keras)  
-- **Deployment:** Streamlit Web App  
-- **Language:** Python
-
----
+- **Real-time camera feed** using OpenCV.
+- **Image capture and labeling** through a simple Tkinter GUI.
+- **Trainable classifier** (default: Linear SVM) for custom datasets.
+- **Instant predictions** displayed on the GUI as new frames are captured.
+- **Lightweight and fast**—no GPU required, runs on most machines.
+- **Ideal for quick demos, prototyping, and educational purposes.**
 
 
 
